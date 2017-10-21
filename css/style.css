@@ -6,11 +6,39 @@ body
 	background: #666666;
 }
 
-.nav.navbar-nav li a {
-	color: black;
-	font: 1.2em "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+a, a:link, a:visited, a:active, a:hover
+{
+	color: #81C0C5;
 }
-.nav.navbar-nav li a:hover {
-	color: #026698;
-	font-style: italic;
+
+header{
+	background-color: #FFFFFF;
+	border-radius: 15px;
+	padding: 10px;
+	margin: 10px;
+}
+
+nav{
+	//background-color: #b5d045;
+}
+
+section #texto1{
+	background-color: #FFFFFF;
+	padding: 10px;
+	margin: 10px;
+	border-radius: 10px;
+	text-align: center;
+}
+
+section {
+	background-color: #FFFFFF;
+	padding: 10px;
+	margin: 10px;
+	border-radius: 10px;
+	text-align: center;
+}
+
+footer{
+	background-color: #000000;
+	color: #FFFFFF;
 }
