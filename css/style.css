@@ -6,20 +6,11 @@ body
 	background: #666666;
 }
 
-a, a:link, a:visited, a:active, a:hover
-{
-	color: #81C0C5;
-}
-
 header{
 	background-color: #FFFFFF;
 	border-radius: 15px;
 	padding: 10px;
 	margin: 10px;
-}
-
-nav{
-	//background-color: #b5d045;
 }
 
 section #texto1{
@@ -30,6 +21,11 @@ section #texto1{
 	text-align: center;
 }
 
+div #cuerpo{
+	text-align: center;
+	padding-top: 20px;
+}
+
 section {
 	background-color: #FFFFFF;
 	padding: 10px;
@@ -38,7 +34,20 @@ section {
 	text-align: center;
 }
 
+.row{
+	padding: 10px;
+	margin: 10px;
+	background-color: #FFFFFF;
+	border-radius: 10px;
+}
+
 footer{
 	background-color: #000000;
 	color: #FFFFFF;
+}
+
+footer #row-footer{
+	background-color: black;
+	text-align: center;
+	padding-top: 20px;
 }
