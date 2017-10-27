@@ -13,6 +13,67 @@ header{
 	margin: 10px;
 }
 
+#menu-wrapper ul{		 
+     padding-right: 0px;
+     padding-left: 0px;	 
+	 list-style: none;
+	 z-index: 99;
+}
+
+#hmenu > li{
+	display: inline-block;
+	text-align: center;
+}
+
+#hmenu > li > a{
+	display: block;
+	padding: 10px 10px;
+	width: 125px;
+	border-radius:10px;
+}
+
+li ul{
+	position: absolute;
+	display: none;
+	opacity: .9; 
+	border-radius: 10px 0px;
+}
+
+.sub-menu a{
+	display: block;
+	padding: 10px 10px;
+	width: 125px;
+}	
+
+li:hover ul{
+	display: block;
+}
+
+#menu-wrapper, li ul{
+	background: #666;
+}
+
+#hmenu{
+	width: 700px;
+	margin: auto;
+}
+
+#hmenu a{
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;	
+}
+
+#hmenu a:hover{
+	color: #9FF;
+}
+
+#hmenu li:hover{
+	background: #a3cd39;
+	text-shadow: 0 0 2px #000;
+	border-radius:10px 0px 10px 0px;
+}
+
 section #texto1{
 	background-color: #FFFFFF;
 	padding: 10px;
