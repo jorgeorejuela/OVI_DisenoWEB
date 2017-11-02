@@ -4,6 +4,9 @@
 body
 {
 	background: #666666;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	
 }
 
 header{
@@ -84,7 +87,7 @@ section #texto1{
 
 div #cuerpo{
 	text-align: center;
-	padding-top: 20px;
+	padding-top: 10px;
 }
 
 section {
@@ -100,6 +103,8 @@ section {
 	margin: 10px;
 	background-color: #FFFFFF;
 	border-radius: 10px;
+	padding-right: 0px;
+	padding-left: 0px;
 }
 
 footer{
@@ -110,5 +115,6 @@ footer{
 footer #row-footer{
 	background-color: black;
 	text-align: center;
-	padding-top: 20px;
+	padding-top: 10px;
 }
+
