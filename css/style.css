@@ -97,8 +97,15 @@ section {
 	border-radius: 10px;
 	text-align: center;
 }
-
 .row{
+	text-align:center
+	padding: 10px;
+	margin: 10px;
+	background-color: #FFFFFF;
+	border-radius: 10px;
+}
+.raw{
+	text-align:center
 	padding: 10px;
 	margin: 10px;
 	background-color: #FFFFFF;
