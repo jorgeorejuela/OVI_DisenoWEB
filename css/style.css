@@ -117,11 +117,13 @@ section {
 footer{
 	background-color: #000000;
 	color: #FFFFFF;
+	font-size: 11px;
+	//text-align: left;
 }
 
 footer #row-footer{
 	background-color: black;
-	text-align: center;
+	text-align: left;
 	padding-top: 10px;
 }
 
