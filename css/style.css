@@ -4,6 +4,9 @@
 body
 {
 	background: #666666;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	
 }
 
 header{
@@ -84,7 +87,7 @@ section #texto1{
 
 div #cuerpo{
 	text-align: center;
-	padding-top: 20px;
+	padding-top: 10px;
 }
 
 section {
@@ -94,21 +97,66 @@ section {
 	border-radius: 10px;
 	text-align: center;
 }
-
 .row{
+	text-align:center
 	padding: 10px;
 	margin: 10px;
 	background-color: #FFFFFF;
 	border-radius: 10px;
 }
+.raw{
+	text-align:center
+	padding: 10px;
+	margin: 10px;
+	background-color: #FFFFFF;
+	border-radius: 10px;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+.foto{
+	 margin:20px 45px;
+     padding:2px; 
+     background:#C60;
+     border-radius:10px
+}
+
+.cap 
+{
+	font-family: Tahoma, Geneva, sans-serif;
+	color: #C60;
+}
 
 footer{
 	background-color: #000000;
 	color: #FFFFFF;
+	font-size: 11px;
 }
 
 footer #row-footer{
 	background-color: black;
-	text-align: center;
+	text-align: left;
 	padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.col-md-12{
+	padding-top: 8px;
+    padding-bottom: 5px;
+}
+
+footer #footer-log{
+    margin-left: 15px;
+	margin-right: 15px;
+}
+
+.logosInferior {
+    text-align: center;
+    background: #FFFFFF;
+}
+
+.Widge{
+	margin-right: 20px;
+	margin-left: 1000px;
+	margin-top: -350px;
 }
